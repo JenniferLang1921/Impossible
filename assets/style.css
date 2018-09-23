@@ -1,5 +1,5 @@
 body {
-    background-color: #D2B48C;
+    
     color: grey;
 }
 
@@ -28,4 +28,19 @@ body {
 
   .carousel-caption {
       color: gray;
+  }
+
+
+  /*Free Book Page*/
+
+  .freebook {
+    margin: auto;
+    width: 50%;
+    margin-top: 50px;
+  }
+
+  .button {
+    margin: auto;
+    
+    margin-top: 20px;
   }
