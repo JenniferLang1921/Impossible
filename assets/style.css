@@ -13,7 +13,7 @@ body {
 
 /*Header*/
 .jumbotron {
-    background: url('images/deborahbanner3.jpg');
+    background: url('images/deborahbannernotext.jpg');
     height:500px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -44,6 +44,7 @@ body {
     
     margin-top: 20px;
   }
+
 
   /*Contact Form Page*/
 
