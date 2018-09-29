@@ -14,7 +14,7 @@ body {
 /*Header*/
 .jumbotron {
     background: url('images/deborahbannernotext.jpg');
-    height:500px;
+    height:100%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
  
@@ -23,6 +23,10 @@ body {
 .jumbotron .jumboContainer {
     position:relative;
     top:50px;
+  }
+
+  #titleText {
+      margin-top: 100px;
   }
 
 
@@ -47,5 +51,44 @@ body {
 
 
   /*Contact Form Page*/
+
+
+
+  /*media queries*/
+/*desktop*/
+@media screen and (max-width: 980px) and (min-width: 768px) {
+    #titleText {
+        width: 600px;
+        height: 150px;
+    }
+  }
+
+
+  @media screen and (max-width: 768px) and (min-width: 600px) {
+    #titleText {
+        width: 500px;
+        height: 125px;
+    }
+  }
+
+  @media screen and (max-width: 599px) and (min-width: 416px) {
+    #titleText {
+        width: 400px;
+        height: 100px;
+    }
+  }
+
+
+   
+  /* wide phone*/
+  @media screen and (max-width: 415px) and (min-width: 0px) {
+    
+       
+    #titleText {
+        width: 350px;
+        height: 87px;
+    }
+  
+  }
 
   
