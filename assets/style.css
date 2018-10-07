@@ -1,6 +1,7 @@
 body {
     
     color: grey;
+    
 }
 
 
@@ -20,20 +21,42 @@ body {
  
 }
 /*Castle Picture inside header*/
-.jumbotron .jumboContainer {
+.jumbotron {
     position:relative;
-    top:50px;
+    
   }
 
   #titleText {
       margin-top: 100px;
   }
 
- 
+  #bookgreens {
+      float: left;
+      top: 50px;
+  }
+
+ .bookText {
+     margin-top: 10%;
+ }
 
   .carousel-caption {
       color: gray;
+      
   }
+
+  /*carousel captions*/
+
+  .Robert, .Kaya, .MT {
+      margin-bottom: 10%;
+  }
+
+  .Bill, .JL {
+    margin-bottom: 8%;
+}
+
+  .Jack {
+    margin-bottom: 2%;
+}
 
 
   /*Free Book Page*/
