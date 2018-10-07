@@ -6,10 +6,7 @@ body {
 
 
 /* navbar */
-.navbar-default {
-    background-color: white !important;
-    border-color: #E7E7E7;
-}
+
 
 
 /*Header*/
@@ -75,6 +72,53 @@ body {
 
 
   /*Contact Form Page*/
+
+  #contact-form {
+    border-radius: 5px;
+    background-color: #00264d;
+    padding: 20px;
+    color: #DCDCDC;
+}
+
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0px 0 16px;
+    background-color: #DCDCDC;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 30%;
+    background:  radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+    radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #FEDB37 62.5%, #5d4a1f 100%);
+    color: black;
+    padding: 14px 20px;
+    margin: 12px 0 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+input[type=submit]:hover {
+    background-color: gold;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #DCDCDC;
+    resize: none;
+}
 
 
 
