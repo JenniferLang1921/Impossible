@@ -29,49 +29,57 @@
 </head>
 
 <body>
-
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="#">Logo</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
-        </li>
-
-
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.goodreads.com/author/show/1563988.D_Dalton">Goodreads</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#">Amazon</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.amazon.com/D.-Dalton/e/B00HS0C89Q">Author</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="http://clcanadyarts.wixsite.com/artwork">Artist</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://discordapp.com/invite/jBbtWWU">Discord</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="freebook.html">Free Book</a>
-        </li>
-
-      </ul>
+  <div class="pos-f-t">
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg-dark p-4">
+        <h4 class="text-white">Collapsed content</h4>
+        <span class="text-muted">Toggleable via the navbar brand.</span>
+      </div>
     </div>
-  </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="index.html">Logo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav nav-fill w-100">
+
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+          </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.goodreads.com/author/show/1563988.D_Dalton">Goodreads</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Amazon</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.amazon.com/D.-Dalton/e/B00HS0C89Q">Author</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://clcanadyarts.wixsite.com/artwork">Artist</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://discordapp.com/invite/jBbtWWU">Discord</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="http://eepurl.com/cPqY4f">Free Book</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+  </div>
 
   <div class="container" id="contact-form">
 
@@ -80,17 +88,25 @@
       <label for="fname">Name</label>
       <input type="text" id="name" name="name" placeholder="Your name..">
       <br>
-  
+
       <label for="lname">Email</label>
       <input type="text" id="email" name="email" placeholder="Your email..">
-  <br>
+      <br>
 
-  <label for="txtArea">Message</label>
-​<textarea id="txtArea" rows="10" cols="70"></textarea>
+      <label for="txtArea">Message</label>
+      ​<textarea id="txtArea" rows="10" cols="70"></textarea>
 
-    
+
       <input type="submit" value="Submit">
     </form>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+
 </body>
 
 </html>
