@@ -16,7 +16,7 @@ body {
   }
   
   .nav-item:hover {
-    border-bottom: 3px solid rgb(255,215,0);
+    border-bottom: 3px inset rgb(255,215,0);
     
   
   }
@@ -78,16 +78,29 @@ body {
   /*Free Book Page*/
 
   .freebook {
-    margin: auto;
-    width: 50%;
+   
+  
     margin-top: 50px;
   }
 
-  .button {
-    margin: auto;
-    
-    margin-top: 20px;
-  }
+ 
+#freebookbutton {
+  
+  background:  rgb(114, 129, 224);
+  color: black;
+  padding: 14px 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+ 
+}
+
+#freebookbutton:hover {
+        background-color: rgb(255,215,0)
+}
 
 
   /*Contact Form Page*/
@@ -115,8 +128,7 @@ body {
 
 input[type=submit] {
     width: 30%;
-    background:  radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
-    radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #FEDB37 62.5%, #5d4a1f 100%);
+    background:  rgb(114, 129, 224);
     color: black;
     padding: 14px 20px;
     margin: 12px 0 16px;
