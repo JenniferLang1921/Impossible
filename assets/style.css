@@ -7,6 +7,7 @@ body {
 
 /* navbar */
   
+ 
 
   .nav-item {
   color: black !important;
@@ -17,7 +18,7 @@ body {
   }
   
   .nav-item:hover {
-    border-bottom: 3px inset rgb(255,215,0);
+    border-bottom: 2px inset rgb(255,215,0);
     
   
   }
@@ -236,6 +237,8 @@ body {
         width: 350px;
         height: 87px;
     }
+
+    
 
 
     input[type=submit] {
